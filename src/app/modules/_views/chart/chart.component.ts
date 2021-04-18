@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Someil } from '../../_Model/someil.model';
+import { Someil } from '../../_model/someil.model';
 import { SommeilUserService } from '../../_service/sommeil-user.service';
 
 
