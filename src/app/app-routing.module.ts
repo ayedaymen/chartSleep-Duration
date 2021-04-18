@@ -1,7 +1,8 @@
 import { componentFactoryName } from '@angular/compiler';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ChartComponent } from './core/_views/chart/chart.component';
+import { ChartComponent } from './modules/_views/chart/chart.component';
+
 
 
 const routes: Routes = [

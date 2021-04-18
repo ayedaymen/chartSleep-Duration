@@ -44,10 +44,7 @@ export class ChartComponent implements OnInit {
        sommeSleepDurations=parseFloat(a.toString().match(/\d+$/)[0])+sommeSleepDurations;
        
        var date = new Date(x.timestamp*1000).toLocaleString('default', { month: 'long' ,day:"2-digit",year:"numeric"});
-       dates.push(date);
-      console.log(sleepDurations);
-      const today = new Date()
-      
+       dates.push(date);      
        });
        this.lastSleepDuration = sleepDurations[sleepDurations.length -1]; 
        this.average=sommeSleepDurations/(sleepDurations.length+1)     

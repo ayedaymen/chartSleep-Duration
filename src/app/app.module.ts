@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgApexchartsModule } from 'ng-apexcharts';
-import { ChartComponent } from './core/_views/chart/chart.component';
-import { HttpClientModule } from '@angular/common/http';
+  import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ChartComponent } from './modules/_views/chart/chart.component';
 
 @NgModule({
   declarations: [
