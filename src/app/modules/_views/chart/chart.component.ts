@@ -26,9 +26,7 @@ export class ChartComponent implements OnInit {
     
    
   } 
-  replaceAll(str, find, replace) {
-    return str.replace(new RegExp(find, 'g'), replace);
-  }
+
   ngOnInit(): void {
     var sommeSleepDurations=0;
 
@@ -61,7 +59,7 @@ export class ChartComponent implements OnInit {
     return {
       series: [{
         name: 'Sleep Duration',
-        data:data
+        data:       data
       }, 
       ],
       chart: {
