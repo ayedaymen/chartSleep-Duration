@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Someil } from '../_Model/someil.model';
+import { Someil } from '../_model/someil.model';
 import { Observable, of } from 'rxjs';
 
 @Injectable({
