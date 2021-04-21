@@ -45,7 +45,7 @@ export class ChartComponent implements OnInit {
        dates.push(date);      
        });
        this.lastSleepDuration = sleepDurations[sleepDurations.length -1]; 
-       this.average=sommeSleepDurations/(sleepDurations.length+1)     
+       this.average=Math.round(sommeSleepDurations/(sleepDurations.length+1));
        this.chartOptions = this.getChartOptions(sleepDurations,dates);
  });
  
